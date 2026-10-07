@@ -293,7 +293,7 @@ def build_outputs(results, raw_count, sstp_count, source):
     return data
 
 # edgetunnel 入口地址池
-EDGE_HOSTS = [cf.qq.ms:8443,cf.vvhan.com:2087,www.akasantech.com:2083,images.chesscomfiles.com:2083,openai.com:2087,www.sage.com:2087,cdn.204910.best:2083]
+EDGE_HOSTS = [cf.vvhan.com:2087,www.akasantech.com:2083,images.chesscomfiles.com:2083,openai.com:2087,www.sage.com:2087,cdn.204910.best:2083]
 
 NODES_URL = os.environ.get("NODES_URL", "https://sirren312-droid.github.io/gate/nodes.txt")
 
